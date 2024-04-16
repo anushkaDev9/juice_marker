@@ -1,5 +1,5 @@
 body{
-    background-color: #492E87;
+    
 }
 .floor-div{
     background-color: black;
@@ -14,7 +14,7 @@ body{
      background-color: #7e7e7e;
      width: 45%;
      height: 5rem;
-      top:71.5%;
+      top:69%;
     left:29%;
      border-radius: 10px;
       position: absolute;
@@ -23,9 +23,9 @@ body{
 .juice-marker-box{
      background-color: #7e7e7e;
      border: 4px solid black;
-    width:36%;
-     height: 15rem;
-    top:50%;
+    width:37%;
+     height: 12rem;
+    top:45%;
     left:33%;
       position: absolute;
       border-radius: 10px;
@@ -33,11 +33,62 @@ body{
 }
 .top-div{
    background-color: black;
-    width: 40%;
+    width: 41%;
     height: 1rem;
     position: absolute;
-    border-radius: 10px;
-    top:50%;
+   	border-radius:12px 12px 40px 40px;
+    top:45%;
     left:31%;
 z-index: 1;
+}
+.machine-top{
+    background-color: #7e7e7e;
+   width: 45%;
+    border: 4px solid black;
+    height: 7rem;
+    position: absolute;
+    top:30%;
+    left:29%;
+z-index: 1;
+border-radius: 12px 12px 30px 30px;
+}
+.beverage-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width:100%;
+     height: 12rem;
+     position: absolute;
+}
+.beverage-div div{
+    border-right: 2px solid black;
+}
+.top-machine{
+    background-color: rgb(28, 26, 26);
+    width:45%;
+    height: 4rem;
+    border-radius: 2px 1px 10px 10px;
+    margin-left:20%;
+}
+.base-machine{
+     background-color: black;
+    width: 50%;
+    height: 0.5rem;
+    
+    border-radius: 10px;
+    margin-top: 80%;
+    margin-left:23%;
+}
+.middle-part{
+    background-color: black;
+   height: 0.5rem;
+   width:30%;
+    margin-left:28%;
+    margin-top: 0%;
+}
+.end-part{
+    background-color: black;
+    height: 1rem;
+   width:10%;
+    margin-left:38%;
+    margin-top: 0%;
 }
