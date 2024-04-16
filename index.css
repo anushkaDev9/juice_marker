@@ -1,5 +1,6 @@
 body{
-    
+    background-color: rgb(192, 226, 237)
+    ;
 }
 .floor-div{
     background-color: black;
@@ -11,7 +12,7 @@ body{
     left:15%
 }
 .end-box{
-     background-color: #7e7e7e;
+     background-color: #dedbdb;
      width: 45%;
      height: 5rem;
       top:69%;
@@ -21,7 +22,7 @@ body{
      border: 4px solid black;
 }
 .juice-marker-box{
-     background-color: #7e7e7e;
+     background-color: #dedbdb;
      border: 4px solid black;
     width:37%;
      height: 12rem;
@@ -42,7 +43,7 @@ body{
 z-index: 1;
 }
 .machine-top{
-    background-color: #7e7e7e;
+    background-color: #dedbdb;
    width: 45%;
     border: 4px solid black;
     height: 7rem;
@@ -60,14 +61,29 @@ border-radius: 12px 12px 30px 30px;
      position: absolute;
 }
 .beverage-div div{
-    border-right: 2px solid black;
+    
 }
+
 .top-machine{
-    background-color: rgb(28, 26, 26);
+    background-color: rgb(241, 236, 236);
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
     width:45%;
     height: 4rem;
     border-radius: 2px 1px 10px 10px;
     margin-left:20%;
+    margin-top: -18%;
+    cursor: pointer;
+}
+.top-machine .fruit-emoji{
+    color:white;
+    font-weight: bold;
+   padding-top: 5%;
+   font-size: 25px;
+}
+.press{
+   margin-top: -2%;
 }
 .base-machine{
      background-color: black;
@@ -75,20 +91,22 @@ border-radius: 12px 12px 30px 30px;
     height: 0.5rem;
     
     border-radius: 10px;
-    margin-top: 80%;
+    margin-top: 60.5%;
     margin-left:23%;
 }
 .middle-part{
-    background-color: black;
+    background-color: rgb(111, 109, 109);
    height: 0.5rem;
-   width:30%;
-    margin-left:28%;
+   width:35%;
+    margin-left:27%;
     margin-top: 0%;
+    border: 3px solid black;
 }
 .end-part{
-    background-color: black;
-    height: 1rem;
-   width:10%;
-    margin-left:38%;
+    background-color: rgb(135, 133, 133);
+    height: 0.5rem;
+   width:5%;
+    margin-left:40%;
     margin-top: 0%;
+     border: 3px solid black;
 }
